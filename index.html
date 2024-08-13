@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>How good looking is this form?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Good Looking Forms</h1>
+    <p id="description">learning css and html don't blame lol</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"
+          >What's your name bro<input
+            type="text"
+            id="name"
+            placeholder="Joe Doe"
+            required
+        /></label>
+        <label id="email-label"
+          >Your email bruh<input
+            type="email"
+            id="email"
+            placeholder="billgatesorsomething@gmail.com"
+            required
+        /></label>
+        <label id="number-label"
+          >Rank the looks of this form bruh<input
+            type="number"
+            id="number"
+            min="0"
+            max="10"
+            placeholder="not 0 please lol"
+        /></label>
+        <label id="gethere-label"
+          >How did you end up looking at this terrible form bro
+          <select id="dropdown">
+            <option>Random google search</option>
+            <option>destiny IDK</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <div class="credit-card-options">
+          <legend>Want to put it in your credit card info for the lols?</legend>
+          <label
+            ><input
+              id="credit-card-ok"
+              type="radio"
+              name="credit-card"
+              value="yes"
+              checked
+              class="inline"
+            />
+            Yes</label
+          >
+          <label
+            ><input
+              id="credit-card-notok"
+              type="radio"
+              name="credit-card"
+              value="no"
+              class="inline"
+            />
+            No</label
+          >
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="options-funny">
+          <legend>Select whatever you want mate IDK</legend>
+          <label class="inline"
+            ><input
+              type="checkbox"
+              name="funny-options"
+              value="i-have-nothing-better-to-do"
+            />
+            I have nothing better to do</label
+          >
+          <label class="inline"
+            ><input
+              type="checkbox"
+              name="funny-options"
+              value="i-love-filling-forms"
+            />
+            I love filling forms</label
+          >
+          <label class="inline"
+            ><input
+              type="checkbox"
+              name="funny-options"
+              value="i-was-forced-to-do-this"
+            />
+            I was forced to do this</label
+          >s
+          <label class="inline"
+            ><input
+              type="checkbox"
+              name="funny-options"
+              value="just-for-the-lols"
+            />
+            Just for the lols</label
+          >
+        </div>
+      </fieldset>
+      <fieldset>
+        <label id="opinionq"
+          >What is your opinion on this form:
+          <textarea
+            id="opinion"
+            placeholder="Share your deep thoughts... or just random musings about llamas."
+            rows="4"
+            cols="30"
+          ></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>
